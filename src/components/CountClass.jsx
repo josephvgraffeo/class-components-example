@@ -11,6 +11,11 @@ class CountClass extends Component {
     componentDidMount() {
         this.setState({ title: "Our New Title" })
     }
+
+    // componentDidUpdate() {
+    //         document.title = `${this.state.count} count`
+    // }
+
     render() {
         const { count, title } = this.state
         return (

@@ -6,6 +6,10 @@ export default function CountHooks() {
     useEffect(() => {
         setTitle('Our New Title2')
     }, [])
+    
+    // useEffect(() => {
+    //     document.title = `${count} clicks`;
+    // }, [count])
 
     return (
         <section>
